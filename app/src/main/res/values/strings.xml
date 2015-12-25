@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Krnt_android_group</string>
+
+    <string name="user_name">用户名称：</string>
+    <string name="user_hint">请输入用户名</string>
+    <string name="room_name">房间名称：</string>
+    <string name="room_hint">请输入房间名</string>
+    <string name="enter_room">进入房间</string>
+
+    <string name="menu_set">设置</string>
+    <string name="SOCKET_RECEIVER">com.jch.kGroup.SOCKET_RECEIVER</string>
+
+    <!-- Strings related to Settings -->
+    <!-- setting -->
+    <string name="pref_key_setting_pref">p2p_pref</string>
+
+    <string name="pref_key_miscellaneous_category">miscellaneous</string>
+    <string name="pref_title_miscellaneous">Miscellaneous Settings</string>
+
+    <string name="pref_key_host">host</string>
+    <!--<string name="pref_default_host">ws://106.120.210.147</string>-->
+    <string name="pref_default_host">ws://10.2.11.43</string>
+    <string name="pref_title_host">WebSokcet Host</string>
+    <string name="pref_title_host_dialog">Enter the host url.</string>
+
+    <string name="pref_key_port">host_port</string>
+    <string name="pref_default_port">8080</string>
+    <string name="pref_title_port">WebSocket port</string>
+    <string name="pref_title_port_dialog">Enter the webSocket url port</string>
+
+    <string name="pref_key_method">host_method</string>
+    <string name="pref_default_method">groupcall</string>
+    <string name="pref_title_method">WebSocket method</string>
+    <string name="pref_title_method_dialog">Enter the webSocket method</string>
+
+    <string name="pref_key_stun"></string>
+    <string name="pref_default_stun"></string>
+    <string name="pref_title_stun">Stun server</string>
+    <string name="pref_title_stun_dialog">Enter the stun server</string>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <string name="pref_key_video_callable">videoCallAble</string>
+    <string name="pref_title_video_callable">VideoCallAble</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="refresh">重连</string>
+    <string name="title_activity_play">PlayActivity</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="@string/pref_key_miscellaneous_category"
+        android:title="@string/pref_title_miscellaneous">
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/pref_default_host"
+            android:dialogTitle="@string/pref_title_host_dialog"
+            android:inputType="textUri"
+            android:key="@string/pref_key_host"
+            android:title="@string/pref_title_host" />
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/pref_default_port"
+            android:dialogTitle=""
+            android:inputType="number"
+            android:key="@string/pref_key_port"
+            android:title="@string/pref_title_port" />
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/pref_default_method"
+            android:dialogTitle="@string/pref_title_method_dialog"
+            android:inputType="text"
+            android:key="@string/pref_key_method"
+            android:title="@string/pref_title_method" />
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/pref_default_stun"
+            android:dialogTitle="@string/pref_title_stun_dialog"
+            android:inputType="text"
+            android:key="@string/pref_key_stun"
+            android:title="@string/pref_title_stun" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="videoSetting"
+        android:title="VideoSetting">
+        <CheckBoxPreference
+            android:checked="true"
+            android:defaultValue="true"
+            android:key="@string/pref_key_video_callable"
+            android:title="@string/pref_title_video_callable" />
+    </PreferenceCategory>
+</PreferenceScreen>
